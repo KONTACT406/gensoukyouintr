@@ -1,0 +1,7 @@
+//参考になりそうなサイト
+//入力フォームについて
+https://developer.mozilla.org/ja/docs/Web/HTML/Element/input
+https://wunderstand.net/1002/#
+//画像生成について
+https://blog.recruit.co.jp/rls/2019-12-17-html-to-img-comparison/
+https://www.pazru.net/html5/Canvas/150.html
