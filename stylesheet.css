@@ -11,12 +11,14 @@ a {
   text-decoration: none;
 }
 
+/* コンテンツの時に入れるおまじない？ */
 .container {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
+/* トップラッパー */
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(top.png);
@@ -24,40 +26,38 @@ a {
   color: white;
   text-align: center;
 }
-
+/*  */
 .top-wrapper h1 {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
 }
-
+/*  */
 .top-wrapper p {
   opacity: 0.7;
   font-size: 16px;
   margin-bottom: 40px;
 }
-
+/* ボタンラッパー */
 .btn-wrapper {
   text-align: center;
 }
-
+/*  */
 .btn-wrapper p {
   margin-bottom: 20px;
 }
 
+/* 登録ボタン */
 .signup {
   background-color: #239b76;
 }
 
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
+/* Twitterボタン */
 .twitter {
   background-color: #55acee;
 }
 
+/* ボタン */
 .btn {
   padding: 8px 24px;
   color: white;
@@ -74,7 +74,7 @@ a {
 .fa {
   margin-right: 5px;
 }
-
+/* ヘッダー */
 header {
   height: 65px;
   width: 100%;
@@ -89,15 +89,17 @@ header {
   margin-top: 20px;
 }
 
+/* ヘッダー */
 .header-left {
   float: left;
 }
 
+/* ヘッダー */
 .header-right {
   float: right;
   margin-right: -25px;
 }
-
+/*  */
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
@@ -111,15 +113,6 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
-.lesson-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
@@ -130,21 +123,6 @@ header {
   font-weight: normal;
 }
 
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
-}
 
 .text-contents {
   width: 80%;
@@ -158,6 +136,7 @@ header {
   font-weight: normal;
 }
 
+/* メッセージ */
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
@@ -204,14 +183,6 @@ footer {
 }
 
 @media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
 
   footer {
     text-align: center;
@@ -255,14 +226,6 @@ footer {
 
   .top-wrapper p {
     font-size: 14px;
-  }
-
-  .lesson {
-    width: 100%;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
   }
 
   .message-wrapper .btn {
